@@ -1,4 +1,4 @@
-# Rainbow Container
+# 🌈 Rainbow Container
 
 [![Pub](https://img.shields.io/pub/v/rainbow_container.svg)](https://pub.dev/packages/rainbow_container)
 [![Build Status](https://travis-ci.org/felangel/rainbow_container.svg?branch=master)](https://travis-ci.org/felangel/rainbow_container)
