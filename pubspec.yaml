@@ -1,16 +1,16 @@
 name: rainbow_container
 description: A magical container which changes colors whenever its build method is called.
-version: 1.0.0
+version: 2.0.0
 author: Felix Angelov <felangelov@gmail.com>
 homepage: https://github.com/felangel/rainbow_container
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  random_color: ^1.0.3
+  random_color: ^1.0.6-nullsafety
 
 dev_dependencies:
   flutter_test:
