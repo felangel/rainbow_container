@@ -1,4 +1,4 @@
-name: rainbow_container
+name: build
 
 on: [push, pull_request]
 

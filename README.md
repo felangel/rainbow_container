@@ -1,7 +1,7 @@
 # 🌈 Rainbow Container
 
 [![Pub](https://img.shields.io/pub/v/rainbow_container.svg)](https://pub.dev/packages/rainbow_container)
-[![Build Status](https://circleci.com/gh/felangel/rainbow_container.svg?style=shield)](https://circleci.com/gh/felangel/rainbow_container)
+[![build](https://github.com/felangel/rainbow_container/actions/workflows/main.yaml/badge.svg)](https://github.com/felangel/rainbow_container/actions/workflows/main.yaml)
 [![codecov](https://codecov.io/gh/felangel/rainbow_container/branch/master/graph/badge.svg)](https://codecov.io/gh/felangel/rainbow_container)
 
 ---
