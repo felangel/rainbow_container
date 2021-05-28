@@ -1,6 +1,9 @@
 import 'package:flutter/widgets.dart';
 import 'package:random_color/random_color.dart';
 
+final _randomColorGenerator = RandomColor();
+Color get _randomColor => _randomColorGenerator.randomColor();
+
 class RainbowContainer extends Container {
   /// A [Container] which will change colors randomly each time
   /// the `build` method is called.
@@ -27,12 +30,11 @@ class RainbowContainer extends Container {
   }) : super(
           key: key,
           child: child,
-          color:
-              decoration is BoxDecoration ? null : RandomColor().randomColor(),
+          color: decoration is BoxDecoration ? null : _randomColor,
           alignment: alignment,
           padding: padding,
           decoration: decoration is BoxDecoration
-              ? decoration.copyWith(color: RandomColor().randomColor())
+              ? decoration.copyWith(color: _randomColor)
               : decoration,
           foregroundDecoration: foregroundDecoration,
           width: width,
