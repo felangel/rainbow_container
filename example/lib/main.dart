@@ -15,9 +15,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         body: Center(
           child: RainbowContainer(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.all(Radius.circular(16)),
-            ),
+            decoration: BoxDecoration(borderRadius: BorderRadius.circular(16)),
             width: 100,
             height: 100,
           ),
