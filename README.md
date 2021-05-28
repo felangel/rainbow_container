@@ -10,6 +10,6 @@ A magical container which changes colors whenever its build method is called.
 
 ```dart
 RainbowContainer(
-    child: Text('Hello World'),
+  child: Text('Hello World'),
 )
 ```

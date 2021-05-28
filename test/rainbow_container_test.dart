@@ -4,9 +4,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:rainbow_container/rainbow_container.dart';
 
 class RainbowScaffold extends StatefulWidget {
-  final Widget child;
+  const RainbowScaffold({Key? key, required this.child}) : super(key: key);
 
-  const RainbowScaffold({Key key, this.child}) : super(key: key);
+  final Widget child;
 
   @override
   _RainbowScaffoldState createState() => _RainbowScaffoldState();
@@ -22,11 +22,9 @@ class _RainbowScaffoldState extends State<RainbowScaffold> {
           RainbowContainer(
             child: widget.child,
           ),
-          RaisedButton(
+          FloatingActionButton(
             key: const Key('__fab__'),
-            onPressed: () {
-              setState(() {});
-            },
+            onPressed: () => setState(() {}),
           ),
         ],
       ),

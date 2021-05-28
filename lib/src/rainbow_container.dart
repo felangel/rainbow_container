@@ -15,8 +15,8 @@ class RainbowContainer extends StatelessWidget {
   /// );
   /// ```
   const RainbowContainer({
-    Key key,
-    @required this.child,
+    Key? key,
+    required this.child,
   }) : super(key: key);
 
   @override
