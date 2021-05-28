@@ -1,7 +1,6 @@
 name: rainbow_container
 description: A magical container which changes colors whenever its build method is called.
 version: 2.0.0
-author: Felix Angelov <felangelov@gmail.com>
 homepage: https://github.com/felangel/rainbow_container
 
 environment:
